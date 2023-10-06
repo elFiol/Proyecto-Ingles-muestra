@@ -1,0 +1,30 @@
+/*nav*/
+#logoNav {
+  height: 33px;
+}
+#logoNav:hover {
+  transform: scale(1.1);
+}
+/*footer*/
+#insta {
+  height: 28px;
+}
+#logoFooter {
+  height: 52px;
+}
+#logoFooter:hover {
+  transform: scale(1.1);
+}
+
+/* dispositivos grandes lg */
+
+@media all and (min-width: 992px) {
+}
+
+/* dispositivos md */
+@media all and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* dispositivos sm */
+@media all and (max-width: 767px) {
+}
