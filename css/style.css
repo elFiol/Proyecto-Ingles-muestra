@@ -5,6 +5,15 @@
 #logoNav:hover {
   transform: scale(1.1);
 }
+/*inicio*/
+.imagenCarrusel {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+.contenidoInicio{
+  background: #fff5f5;
+}
 /*footer*/
 #insta {
   height: 28px;
@@ -27,4 +36,10 @@
 
 /* dispositivos sm */
 @media all and (max-width: 767px) {
+  /*inicio*/
+  .imagenCarrusel {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
 }
