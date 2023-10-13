@@ -11,13 +11,22 @@
   object-fit: cover;
   object-position: center;
 }
-.contenidoInicio{
+.contenidoInicio {
   background: #fff5f5;
 }
 /*nosotros*/
-.img-nosotros{
+.img-nosotros {
   height: 1100px;
   object-fit: cover;
+}
+/*redes*/
+.img-info1 {
+  height: 500px;
+  object-fit: cover;
+}
+.titulo1 {
+  top: 45%;
+  right: 35%;
 }
 /*footer*/
 #insta {
@@ -37,8 +46,11 @@
 
 /* dispositivos md */
 @media all and (min-width: 768px) and (max-width: 991px) {
-  .img-nosotros{
+  .img-nosotros {
     height: 700px;
+  }
+  .img-info1{
+    height: 400px;
   }
 }
 
@@ -50,7 +62,10 @@
     object-fit: cover;
     object-position: center;
   }
-  .img-nosotros{
+  .img-nosotros {
     height: 500px;
+  }
+  .img-info1 {
+    height: 370px;
   }
 }
