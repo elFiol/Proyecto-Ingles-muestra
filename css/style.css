@@ -28,6 +28,31 @@
   top: 45%;
   right: 35%;
 }
+.barra-whatsapp{
+  width: 92%;
+  height: 50px;
+  background: #06c406;
+}
+.barra-Facebook{
+  width: 90%;
+  background: #4343ff;
+  height: 50px;
+}
+.barra-Instagram{
+  width: 50%;
+  height: 50px;
+  background: #b40045;
+}
+.barra-Messenger{
+  width: 43%;
+  height: 50px;
+  background: #970090;
+}
+.barra-Youtube{
+  width: 36%;
+  height: 50px;
+  background: #ff0000;
+}
 /*footer*/
 #insta {
   height: 28px;
