@@ -57,6 +57,9 @@
   width: 100%;
   height: 500px;
 }
+.textoBanner{
+  color: #fa0000;
+}
 /*footer*/
 #insta {
   height: 28px;
